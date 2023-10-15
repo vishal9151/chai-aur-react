@@ -7,7 +7,7 @@ function Card({name,source="https://images.unsplash.com/photo-1546961329-78bef04
         <img
           src={source}
           alt="AirMax Pro"
-          class="z-0 h-full w-full rounded-md object-cover"
+          className="z-0 h-full w-full rounded-md object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent"></div>
         <div className="absolute bottom-4 left-4 text-left">
